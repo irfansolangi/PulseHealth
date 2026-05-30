@@ -1,0 +1,16 @@
+{
+  "experimental": {
+    "services": {
+      "frontend": {
+        "root": ".",
+        "framework": "nextjs",
+        "routePrefix": "/"
+      },
+      "backend": {
+        "root": "backend",
+        "framework": "python",
+        "routePrefix": "/_/backend"
+      }
+    }
+  }
+}
